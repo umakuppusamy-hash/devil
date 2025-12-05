@@ -24,7 +24,6 @@ public class CarService {
     }
 
     public Car createCar(Car car) {
-        return carRepository.save(car);
     }
 
     public Car getCar(String id) {
@@ -49,6 +48,8 @@ public class CarService {
          loginfo("uma success");
           loginfo("uma exit");
           loginfo("uma exited");
+           loginfo("ended");
+          
         return pageOfCars;
     }
 
